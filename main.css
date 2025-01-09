@@ -1,0 +1,124 @@
+
+body{
+    font-family: Arial, sans-serif; 
+    letter-spacing: 0.05em; 
+    background-color: rgb(255, 220, 150);
+}
+
+
+.box{
+    background-color: rgb(249, 242, 221);
+    width: 980px;
+    margin: 15px auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+.date{
+    color: rgb(90, 62, 62);
+}
+.pie{
+    text-align: center;
+}
+.pie > img{
+    width: 400px;
+}
+.piie{
+    text-align: center;
+}
+.piie > img{
+    width: 700px;
+}
+
+
+.content{
+    border: solid 1px rgb(120, 99, 99);
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.pic{
+    text-align: center;
+}
+.pic > img{
+    width: 200px;
+}
+.top{
+    background-color: rgba(255, 240, 219, 0.777);
+    padding: 10px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.fixed_bg {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_1 { background-image: url('images/1e.jpg'); }
+.bg_2 { background-image: url('images/2e.jpg'); }
+.bg_3 { background-image: url('images/3e.jpg'); }
+
+.infos {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin: 0;
+}
+
+.image-container {
+    position: relative;
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #000230;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+#main_menu{
+    padding-left: 0px;
+    list-style: none;
+}
+#main_menu li{
+    display: inline-block;
+}
+#main_menu li a{
+    font-family: Arial, sans-serif; 
+    letter-spacing: 0.05em; 
+    text-decoration: none;
+    font-size: large;
+    color: rgb(81, 13, 1);
+    padding: 5px 25px;
+    display: block;
+}
+#main_menu li a:hover{
+    font-family: Arial, sans-serif; 
+    letter-spacing: 0.05em; 
+    color: brown;
+}
